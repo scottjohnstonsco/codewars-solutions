@@ -6,3 +6,10 @@ function descendingOrder(n){
   Number(descText);
   return descText;
 }
+
+
+/*
+function descendingOrder(n){
+  return parseInt(String(n).split('').sort().reverse().join(''))
+}
+  */
