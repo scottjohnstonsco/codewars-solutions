@@ -12,3 +12,11 @@ function XO(str) {
     }, 0);
   return total === 0;
 }
+
+/*              Using regex to solve
+function XO(str) {
+  let x = str.match(/x/gi);
+  let o = str.match(/o/gi);
+  return (x && x.length) === (o && o.length);
+}
+*/
